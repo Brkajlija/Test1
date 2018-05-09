@@ -1,0 +1,18 @@
+  *                        *
+_ _ _ _ _ _ _ _ _ _  _  _  _  _  _  _  _  _  _
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+
+
+11 R -roboti ce otici-11 polja u desno a levi ce se pozicionirati na mrlju,i onda ulaze u loop
+
+ogranicio sam loop- tj ponavljanje komandi posle kojih bi trebalo da se sretnu,ako sam dobro ukapirao sta znaci "G"
+ 
+G-loop
+S(robot1) L (robot2)
+L
+R
+endG-loop
+
+nakon ovih ponavljanja,levi robot ce se zadrzati na mrlji zbog L/R ponavljanja,  a desni ce se vremenom sudariti sa njim jer se ne zaustavlja ni na jednoj poziciji.
+
+
